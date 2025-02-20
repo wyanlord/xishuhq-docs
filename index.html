@@ -9,18 +9,19 @@
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <!-- 设置浏览器图标 -->
-  <link rel="icon" href="/favicon.svg" type="image/x-icon" />
-  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+  <link rel="icon" href="favicon.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
   <!-- 默认主题 -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  <!-- 在github上编辑代码 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <link rel="stylesheet" href=".static/fonts.css">
+  <link rel="stylesheet" href=".static/vue.css">
 </head>
 
 <body>
   <!-- 定义加载时候的动作 -->
   <div id="app">加载中...</div>
   <script>
+    !function(t){t.EditOnGithubPlugin={},t.EditOnGithubPlugin.create=function(n,i,e){function u(t){return header=['<div style="overflow: auto">','<p style="float: right"><a style="text-decoration: underline; cursor: pointer"','onclick="EditOnGithubPlugin.onClick(event)">',t,"</a></p>","</div>"].join("")}return e=e||"Edit on github",i=i||n.replace(/\/blob\//,"/edit/"),t.EditOnGithubPlugin.editDoc=function(t,n){var e=n.route.file;if(e){var u=i+e;return window.open(u),t.preventDefault(),!1}return!0},function(n,i){if(t.EditOnGithubPlugin.onClick=function(t){EditOnGithubPlugin.editDoc(t,i)},(r=e)&&"[object Function]"==={}.toString.call(r))n.afterEach((function(t){return u(e(i.route.file))+t}));else{var o=u(e);n.afterEach((function(t){return o+t}))}var r}}}(window);
+
     window.$docsify = {
       // 项目名称
       name: 'Home',
@@ -86,17 +87,17 @@
     }
   </script>
   <!-- docsify的js依赖 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src=".static/docsify.min.js"></script>
   <!-- emoji表情支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src=".static/emoji.min.js"></script>
   <!-- 图片放大缩小支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src=".static/zoom-image.min.js"></script>
   <!-- 搜索功能支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src=".static/search.min.js"></script>
   <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src=".static/docsify-copy-code.min.js"></script>
   <!-- 支持tab标签 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src=".static/docsify-tabs.js"></script>
 </body>
 
 </html>
