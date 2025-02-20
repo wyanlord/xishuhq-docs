@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>浏览器logo2备份@1x</title>
+    <defs>
+        <radialGradient cx="51.3136703%" cy="46.9389547%" fx="51.3136703%" fy="46.9389547%" r="70.210811%" id="radialGradient-1">
+            <stop stop-color="#5296FF" offset="0%"></stop>
+            <stop stop-color="#2C6DD2" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="13.2198088%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#6FEAD7" offset="0%"></stop>
+            <stop stop-color="#5180FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M636.036907,79.8774909 L878.890716,322.7313 L875.81,325.811 L875.81082,555.889716 L759.464,442.157 L875.81,325.811 L875.81082,325.039802 L639.917,325.039 L639.787,325.169 L759.464,442.157 L633.471905,568.150111 C525.039052,676.582964 350.153373,677.501676 242.853809,570.202112 L-2.84217094e-13,327.348303 L245.418811,81.9294923 C353.851664,-26.5033609 528.737343,-27.4220733 636.036907,79.8774909 Z M370.193906,193.838606 L369.001359,195.010894 L237.914304,326.097949 L367.63195,455.815595 C406.317938,494.501583 469.127875,494.560521 508.696809,456.241227 L509.888705,455.06829 L639.787,325.169 L639.653437,325.039802 L639.917,325.039 L640.976418,323.980577 L511.259422,194.263581 C472.573434,155.577593 409.76284,155.519313 370.193906,193.838606 Z" id="path-3"></path>
+        <linearGradient x1="50%" y1="13.2198088%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="浏览器logo2备份" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <rect id="矩形" fill="url(#radialGradient-1)" x="0" y="0" width="1024" height="1024" rx="120"></rect>
+            <g id="编组-16" transform="translate(73.000000, 187.000000)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="蒙版备份-4" fill="url(#linearGradient-4)" transform="translate(439.445358, 325.039802) scale(-1, 1) translate(-439.445358, -325.039802) " xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
